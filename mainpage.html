@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/default.css" />
+    <link rel="stylesheet" type="text/css" href="css/set1.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/search-form.css" />
+    <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="home-style.css">
+    <script type="text/javascript" src="jquery.js"></script>
+
+    <!--必要样式-->
+    <link rel="stylesheet" type="text/css" href="css/set2.css" />
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
+
+</head>
+<script src="jquery.js"></script>
+<body>
+
+<header id="header">
+    <form id="search-form-home" method="post" target="_blank">
+    </form>
+    <div id="web-logo">
+        <a href="#">
+            <img src="logo.png">
+        </a>
+    </div>
+    <nav id="mainNav">
+        <ul class="nav">
+            <li id="nav-li1"><span class="nav-side"></span><a href="#">影讯</a></li>
+            <li id="nav-li2"><span class="nav-side"></span><a href="#">选电影</a></li>
+            <li id="nav-li3"><span class="nav-side"></span><a href="#">排行榜</a></li>
+            <li id="nav-li4"><span class="nav-side"></span><a href="#">影评</a></li>
+            <li id="nav-li5"><span class="nav-side"></span><a href="#" style="color: darkorange">2016观影报告</a></li>
+            <li id="nav-li6"><span class="nav-side"></span><a href="#" style="color: greenyellow;">2016年度榜单</a></li>
+        </ul>
+    </nav>
+    <div class="search-form-home">
+    <section class="htmleaf-container">
+        <form onsubmit="submitFn(this, event);">
+            <div class="search-wrapper">
+                <div class="input-holder">
+                    <input type="text" class="search-input" placeholder="Type to search" />
+                    <button class="search-icon" onclick="searchToggle(this, event);"><span></span></button>
+                </div>
+                <span class="close" onclick="searchToggle(this, event);"></span>
+                <div class="result-container">
+
+                </div>
+            </div>
+        </form>
+    </section>
+    </div>
+</header>
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="container">
+<div class="row">
+    <div class="col-md-3" >
+        <div class="grid">
+            <figure class="effect-hera">
+                <img src="img/17.jpg" alt="img17"/>
+                <figcaption>
+                    <h2>闪光 <span>少女</span></h2>
+                    <p>
+                        <a href="#"><i class="fa fa-fw fa-file-pdf-o"></i></a>
+                        <a href="#"><i class="fa fa-fw fa-file-image-o"></i></a>
+                        <a href="#"><i class="fa fa-fw fa-file-archive-o"></i></a>
+                        <a href="#"><i class="fa fa-fw fa-file-code-o"></i></a>
+                    </p>
+                </figcaption>
+            </figure>
+
+        </div>
+    </div>
+    <div class="col-md-3 col-md-offset-1">
+        <div class="grid">
+            <figure class="effect-hera">
+                <img src="img/17.jpg" alt="img17"/>
+                <figcaption>
+                    <h2>闪光 <span>少女</span></h2>
+                    <p>
+                        <a href="#"><i class="fa fa-fw fa-file-pdf-o"></i></a>
+                        <a href="#"><i class="fa fa-fw fa-file-image-o"></i></a>
+                        <a href="#"><i class="fa fa-fw fa-file-archive-o"></i></a>
+                        <a href="#"><i class="fa fa-fw fa-file-code-o"></i></a>
+                    </p>
+                </figcaption>
+            </figure>
+
+        </div>
+    </div>
+    <div class="col-md-3 col-md-offset-1">
+        <div class="grid">
+            <figure class="effect-hera">
+                <img src="img/17.jpg" alt="img17"/>
+                <figcaption>
+                    <h2>闪光 <span>少女</span></h2>
+                    <p>
+                        <a href="#"><i class="fa fa-fw fa-file-pdf-o"></i></a>
+                        <a href="#"><i class="fa fa-fw fa-file-image-o"></i></a>
+                        <a href="#"><i class="fa fa-fw fa-file-archive-o"></i></a>
+                        <a href="#"><i class="fa fa-fw fa-file-code-o"></i></a>
+                    </p>
+                </figcaption>
+            </figure>
+
+        </div>
+    </div>
+
+</div>
+
+<div class="row">
+    <div class="col-md-3">
+        <div class="grid">
+            <figure class="effect-hera">
+                <img src="img/17.jpg" alt="img17"/>
+                <figcaption>
+                    <h2>闪光 <span>少女</span></h2>
+                    <p>
+                        <a href="#"><i class="fa fa-fw fa-file-pdf-o"></i></a>
+                        <a href="#"><i class="fa fa-fw fa-file-image-o"></i></a>
+                        <a href="#"><i class="fa fa-fw fa-file-archive-o"></i></a>
+                        <a href="#"><i class="fa fa-fw fa-file-code-o"></i></a>
+                    </p>
+                </figcaption>
+            </figure>
+
+        </div>
+    </div>
+    <div class="col-md-3 col-md-offset-1">
+        <div class="grid">
+            <figure class="effect-hera">
+                <img src="img/17.jpg" alt="img17"/>
+                <figcaption>
+                    <h2>闪光 <span>少女</span></h2>
+                    <p>
+                        <a href="#"><i class="fa fa-fw fa-file-pdf-o"></i></a>
+                        <a href="#"><i class="fa fa-fw fa-file-image-o"></i></a>
+                        <a href="#"><i class="fa fa-fw fa-file-archive-o"></i></a>
+                        <a href="#"><i class="fa fa-fw fa-file-code-o"></i></a>
+                    </p>
+                </figcaption>
+            </figure>
+
+        </div>
+    </div>
+    <div class="col-md-3 col-md-offset-1">
+        <div class="grid">
+            <figure class="effect-hera">
+                <img src="img/17.jpg" alt="img17"/>
+                <figcaption>
+                    <h2>闪光 <span>少女</span></h2>
+                    <p>
+                        <a href="#"><i class="fa fa-fw fa-file-pdf-o"></i></a>
+                        <a href="#"><i class="fa fa-fw fa-file-image-o"></i></a>
+                        <a href="#"><i class="fa fa-fw fa-file-archive-o"></i></a>
+                        <a href="#"><i class="fa fa-fw fa-file-code-o"></i></a>
+                    </p>
+                </figcaption>
+            </figure>
+
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-3">
+        <div class="grid">
+            <figure class="effect-hera">
+                <img src="img/17.jpg" alt="img17"/>
+                <figcaption>
+                    <h2>闪光 <span>少女</span></h2>
+                    <p>
+                        <a href="#"><i class="fa fa-fw fa-file-pdf-o"></i></a>
+                        <a href="#"><i class="fa fa-fw fa-file-image-o"></i></a>
+                        <a href="#"><i class="fa fa-fw fa-file-archive-o"></i></a>
+                        <a href="#"><i class="fa fa-fw fa-file-code-o"></i></a>
+                    </p>
+                </figcaption>
+            </figure>
+
+        </div>
+    </div>
+    <div class="col-md-3 col-md-offset-1">
+        <div class="grid">
+            <figure class="effect-hera">
+                <img src="img/17.jpg" alt="img17"/>
+                <figcaption>
+                    <h2>闪光 <span>少女</span></h2>
+                    <p>
+                        <a href="#"><i class="fa fa-fw fa-file-pdf-o"></i></a>
+                        <a href="#"><i class="fa fa-fw fa-file-image-o"></i></a>
+                        <a href="#"><i class="fa fa-fw fa-file-archive-o"></i></a>
+                        <a href="#"><i class="fa fa-fw fa-file-code-o"></i></a>
+                    </p>
+                </figcaption>
+            </figure>
+
+        </div>
+    </div>
+    <div class="col-md-3 col-md-offset-1">
+        <div class="grid">
+            <figure class="effect-hera">
+                <img src="img/17.jpg" alt="img17"/>
+                <figcaption>
+                    <h2>闪光 <span>少女</span></h2>
+                    <p>
+                        <a href="#"><i class="fa fa-fw fa-file-pdf-o"></i></a>
+                        <a href="#"><i class="fa fa-fw fa-file-image-o"></i></a>
+                        <a href="#"><i class="fa fa-fw fa-file-archive-o"></i></a>
+                        <a href="#"><i class="fa fa-fw fa-file-code-o"></i></a>
+                    </p>
+                </figcaption>
+            </figure>
+
+        </div>
+    </div>
+</div>
+</div>
+</body>
+
+
+
+<script>window.jQuery || document.write('<script src="jquery-3.2.1.min.js"><\/script>')</script>
+<script type="text/javascript">
+    function searchToggle(obj, evt){
+        var container = $(obj).closest('.search-wrapper');
+
+        if(!container.hasClass('active')){
+            container.addClass('active');
+            evt.preventDefault();
+        }
+        else if(container.hasClass('active') && $(obj).closest('.input-holder').length == 0){
+            container.removeClass('active');
+            // clear input
+            container.find('.search-input').val('');
+            // clear and hide result container when we press close
+            container.find('.result-container').fadeOut(100, function(){$(this).empty();});
+        }
+    }
+
+    function submitFn(obj, evt){
+        value = $(obj).find('.search-input').val().trim();
+
+        _html = "Yup yup! Your search text sounds like this: ";
+        if(!value.length){
+            _html = "Yup yup! Add some text friend :D";
+        }
+        else{
+            _html += "<b>" + value + "</b>";
+        }
+
+        $(obj).find('.result-container').html('<span>' + _html + '</span>');
+        $(obj).find('.result-container').fadeIn(100);
+
+        evt.preventDefault();
+    }
+</script>
+
+</html>
