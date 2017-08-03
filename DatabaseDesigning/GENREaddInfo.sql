@@ -1,0 +1,89 @@
+INSERT INTO GENRE VALUES(
+	1,
+	'剧情'
+);
+
+INSERT INTO GENRE VALUES(
+	2,
+	'爱情'
+);
+
+INSERT INTO GENRE VALUES(
+	3,
+	'喜剧'
+);
+
+INSERT INTO GENRE VALUES(
+	4,
+	'科幻'
+);
+
+INSERT INTO GENRE VALUES(
+	5,
+	'动作'
+);
+
+INSERT INTO GENRE VALUES(
+	6,
+	'悬疑'
+);
+
+INSERT INTO GENRE VALUES(
+	7,
+	'犯罪'
+);
+
+INSERT INTO GENRE VALUES(
+	8,
+	'恐怖'
+);
+
+INSERT INTO GENRE VALUES(
+	9,
+	'青春'
+);
+
+INSERT INTO GENRE VALUES(
+	10,
+	'励志'
+);
+
+INSERT INTO GENRE VALUES(
+	11,
+	'战争'
+);
+
+INSERT INTO GENRE VALUES(
+	12,
+	'文艺'
+);
+
+INSERT INTO GENRE VALUES(
+	13,
+	'黑色幽默'
+);
+
+INSERT INTO GENRE VALUES(
+	14,
+	'传记'
+);
+
+INSERT INTO GENRE VALUES(
+	15,
+	'情色'
+);
+
+INSERT INTO GENRE VALUES(
+	16,
+	'暴力'
+);
+
+INSERT INTO GENRE VALUES(
+	17,
+	'音乐'
+);
+
+INSERT INTO GENRE VALUES(
+	18,
+	'家庭'
+);
